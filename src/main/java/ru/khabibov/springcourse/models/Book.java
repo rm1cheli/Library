@@ -7,15 +7,15 @@ import javax.validation.constraints.Size;
 public class Book {
     private int id;
 
-    @NotEmpty(message = "Название книги не должно быть пустым")
-    @Size(min = 2, max = 100, message = "Название книги должно быть от 2 до 100 символов длиной")
+    @NotEmpty(message = "Book title must not be empty")
+    @Size(min = 2, max = 100, message = "Book title must be between 2 and 100 characters long")
     private String title;
 
-    @NotEmpty(message = "Автор не должен быть пустым")
-    @Size(min = 2, max = 100, message = "Имя автора должно быть от 2 до 100 символов длиной")
+    @NotEmpty(message = "Author must not be empty")
+    @Size(min = 2, max = 100, message = "Author name must be between 2 and 100 characters long")
     private String author;
 
-    @Min(value = 1500, message = "Год должен быть больше, чем 1500")
+    @Min(value = 1500, message = "Year must be greater than 1500")
     private int year;
 
     public Book() {

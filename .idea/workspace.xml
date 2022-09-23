@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Library:war exploded" />
+      <artifact name="spring-project1:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,55 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a448e734-cc38-4e90-9e16-2fa70e1dcb3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/controllers/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/controllers/BooksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/controllers/PeopleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/dao/BookDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/khabibov/springcourse/dao/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/khabibov/springcourse/dao/BookDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/khabibov/springcourse/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/khabibov/springcourse/models/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/classes/ru/khabibov/springcourse/config/MySpringMvcDispatcherSerlvetIntitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/classes/ru/khabibov/springcourse/config/SpringConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/classes/ru/khabibov/springcourse/controllers/BooksController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/classes/ru/khabibov/springcourse/controllers/PeopleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/classes/ru/khabibov/springcourse/dao/BookDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/classes/ru/khabibov/springcourse/dao/PersonDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/classes/ru/khabibov/springcourse/models/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/classes/ru/khabibov/springcourse/models/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/classes/ru/khabibov/springcourse/util/PersonValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/checker-qual-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/hibernate-validator-6.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/postgresql-42.2.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-aop-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-beans-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-context-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-core-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-expression-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-jcl-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-jdbc-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-tx-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-web-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/spring-webmvc-5.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/views/books/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/views/books/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/views/books/new.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/views/books/show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/views/people/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/views/people/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/views/people/new.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF/views/people/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/util/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khabibov/springcourse/util/PersonValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sql/project1_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/Library2_db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +176,8 @@
       <workItem from="1663864587823" duration="87000" />
       <workItem from="1663864690847" duration="1664000" />
       <workItem from="1663922745842" duration="372000" />
-      <workItem from="1663923322772" duration="3849000" />
+      <workItem from="1663923322772" duration="4001000" />
+      <workItem from="1663945981094" duration="157000" />
     </task>
     <servers />
   </component>
