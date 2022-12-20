@@ -1,1 +1,1 @@
-# Application for control and accounting of books
+Application for control and accounting of books
